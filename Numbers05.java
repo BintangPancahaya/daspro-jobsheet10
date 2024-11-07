@@ -1,5 +1,4 @@
 import java.util.Arrays;
-import java.util.logging.MemoryHandler;
 
 public class Numbers05 {
     public static void main(String[] args) {
@@ -11,6 +10,9 @@ public class Numbers05 {
 
         for (int i=0; i < myNumbers.length; i++) {
             System.out.println(Arrays.toString(myNumbers[i]));
+        }
+        for (int i=0; i < myNumbers.length; i++) {
+            System.out.println("Panjang baris ke-" + (i+1) + ": " + myNumbers[i].length);
         }
     }
     
